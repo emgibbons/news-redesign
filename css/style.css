@@ -192,3 +192,40 @@ a:active {
 	text-decoration: none;
 	color: #333333;
 }
+
+
+@media (min-width: 400px) {
+  .header {
+  	width: 80%;
+  }
+  .button {
+  	width: 80%;
+  }
+  .footer {
+  	font-size: 24px;
+  }
+  h3 , h4 {
+  	width: 80%;
+  }
+  .more-news {
+  	width: 80%;
+  }
+}
+
+@media (min-width: 550px) {
+	.header {
+  	width: 100%;
+  }
+  .button {
+  	width: 100%;
+  }
+  .footer {
+  	font-size: 22px;
+  }
+  h3 , h4 {
+  	width: 100%;
+  }
+  .more-news {
+  	width: 100%;
+  }
+}
