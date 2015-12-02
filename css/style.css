@@ -1,30 +1,28 @@
 @import url('http://fonts.googleapis.com/css?family=Roboto+Condensed:700');
-@import url('http://fonts.googleapis.com/css?family=Pacifico');
-@import url('http://fonts.googleapis.com/css?family=Tinos:400,700');
-@import url('http://fonts.googleapis.com/css?family=Lato:400,700,900');
+@import url('http://fonts.googleapis.com/css?family=Arizonia');
+@import url('http://fonts.googleapis.com/css?family=Roboto Slab:400,700');
 
 body {
 	color: #333333;
-	background-color: #696969;
+	background-color: #F0F8FF;
+	font-family: Roboto Slab;
 }
+
+
 
 .button {
-	background-color: #999999;
-	border-radius: 10px;
-	padding: 20px;
-	color: #333333;
-}
-
-.buttons {
-	padding: 15px;
-	font-size: 15px;
+	text-align: right;
+	padding: 10px;
+	font-size: 20px;
+	margin-bottom: 15px;
 	font-family: Roboto Condensed;
 	text-transform: uppercase;
+	text-decoration: underline;
 	color: #333333;
 }
 
 h1 {
-	font-family: Pacifico;
+	font-family: Arizonia;
 	font-size: 50px;
 	text-align: center;
 	color: black;
@@ -59,8 +57,8 @@ span {
 }
 
 p {
-	font-family: Tinos;
-	font-size: 15px;
+	font-family: Roboto Slab;
+	font-size: 13px;
 	font-weight: normal;
 }
 
@@ -68,8 +66,8 @@ p {
 	border-radius: 80px;
 	padding: 40px;
 	margin: 10px;
-	border: 5px solid #333333;
-	background-color: #DCDCDC;
+	border-bottom: 5px solid #333333;
+	
 }
 
 h3 {
@@ -86,7 +84,7 @@ h3 {
 .byline {
 	padding-bottom: 5px;
 	font-weight: bold;
-	font-family: Tinos;
+	font-family: Roboto Slab;
 	color: #333333;
 }
 
@@ -120,8 +118,8 @@ h4 {
 	padding: 20px;
 	border-radius: 20px;
 	margin-bottom: 20px;
-	border: 5px solid #333333;
-	background-color: #DCDCDC;
+	border-bottom: 5px solid #333333;
+	
 }
 
 .long {
@@ -131,8 +129,6 @@ h4 {
 .most-viewed-stories {
 	border-radius: 20px;
 	padding: 20px;
-	border: 5px solid #333333;
-	background-color: #DCDCDC;
 	margin-bottom: 20px;
 }
 
@@ -140,8 +136,8 @@ h4 {
 	border-radius: 20px;
 	padding: 20px;
 	height: 350px;
-	border: 5px solid #333333;
-	background-color: #DCDCDC;
+	
+	
 
 	
 }
@@ -156,7 +152,7 @@ h4 {
 
 li {
 
-	font-family: 'Lato';
+	font-family: Roboto Slab;
 	font-size: 12px;
 	padding: 10px 10px 10px 10px;
 	line-height: 16px;
@@ -199,7 +195,7 @@ a:active {
   	width: 80%;
   }
   .button {
-  	width: 80%;
+  	width: 75%;
   }
   .footer {
   	font-size: 24px;
