@@ -56,13 +56,21 @@ span {
 	border-bottom: 10px solid #333333;
 }
 
+.main-image {
+	width: 80%;
+	text-align: center;
+	padding: 20px;
+	margin-left: 40px;
+
+}
+
 p {
 	font-family: Roboto Slab;
 	font-size: 13px;
 	font-weight: normal;
 }
 
-.top3 {
+.top4 {
 	border-radius: 80px;
 	padding: 40px;
 	margin: 10px;
@@ -90,6 +98,7 @@ h3 {
 
 .story3 {
 	margin-top: 0px;
+	margin-bottom: 20px;
 }
 
 .story1 {
@@ -136,9 +145,6 @@ h4 {
 	border-radius: 20px;
 	padding: 20px;
 	height: 350px;
-	
-	
-
 	
 }
 
